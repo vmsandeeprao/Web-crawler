@@ -2,6 +2,7 @@ Web crawler by Sandeep Rao:
 
 This is simple Python based web crawler that starts from a link and downloads all the subsequent links in the page. This goes on till infinite depth until killed by the user. 
 
-The code does not revisit already crawled links. 
+The code does not revisit already crawled links. The root webpage needs to be given as a command line argument.
+e.g. python crawl.py http://www.topcoder.com/tc
 
 The code is less than 30 lines in size ;)
