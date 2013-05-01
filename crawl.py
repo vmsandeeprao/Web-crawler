@@ -2,7 +2,7 @@ from urllib2 import *
 import re
 
 regex = re.compile('<a\s*href=[\'|"](.*?)[\'"].*?>')
-tocrawl = set(['http://www.topcoder.com/tc'])
+tocrawl = set([sys.argv[1]])
 crawled = set([])
 
 while 1:
